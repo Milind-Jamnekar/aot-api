@@ -1,9 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { characters } from './characters/data/characters';
 
 @Injectable()
 export class AppService {
-  getAllCharacters() {
-    return characters;
+  getHello() {
+    return 'Hello comarade, welcome to the attack on titan api where you can get character,titan info and much more ';
   }
 }
