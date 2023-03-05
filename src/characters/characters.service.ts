@@ -1,14 +1,15 @@
 import { Injectable } from '@nestjs/common';
+import { characters } from './data/characters';
 import { CreateCharacterDto } from './dto/create-character.dto';
 import { UpdateCharacterDto } from './dto/update-character.dto';
 
 @Injectable()
 export class CharactersService {
   findAll() {
-    return `This action returns all characters`;
+    return characters;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} character`;
+  findOneById(id: number) {
+    return characters.filter((character) => character.id === id);
   }
 }
