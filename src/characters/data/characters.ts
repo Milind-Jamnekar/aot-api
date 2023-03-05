@@ -1,5 +1,6 @@
 const characters = [
   {
+    id: 1,
     name: 'Eren Yeager',
     alias: 'Suicidal Blockhead',
     age: 15,
@@ -17,6 +18,7 @@ const characters = [
     firstAppearance: 'Episode 1',
   },
   {
+    id: 2,
     name: 'Mikasa Ackerman',
     alias: 'Queen of the Ackers',
     age: 15,
@@ -34,6 +36,7 @@ const characters = [
     firstAppearance: 'Episode 1',
   },
   {
+    id: 3,
     name: 'Levi Ackerman',
     alias: "Humanity's Strongest Soldier",
     age: 34,
@@ -51,6 +54,7 @@ const characters = [
     firstAppearance: 'Episode 3',
   },
   {
+    id: 4,
     name: 'Armin Arlert',
     alias: 'The Colossal Titan',
     age: 15,
@@ -62,6 +66,7 @@ const characters = [
     image_url: 'https://i.imgur.com/QQ6JExM.jpg',
   },
   {
+    id: 5,
     name: 'Historia Reiss',
     alias: 'Krista Lenz',
     age: 19,
@@ -73,6 +78,7 @@ const characters = [
     image_url: 'https://i.imgur.com/RR9tYvz.jpg',
   },
   {
+    id: 6,
     name: 'Sasha Braus',
     alias: 'Potato Girl',
     age: 16,
@@ -85,6 +91,7 @@ const characters = [
   },
 
   {
+    id: 7,
     name: 'Connie Springer',
     alias: 'The Midget',
     age: 17,
@@ -96,6 +103,7 @@ const characters = [
     image_url: 'https://i.imgur.com/bVfT0nD.jpg',
   },
   {
+    id: 8,
     name: 'Reiner Braun',
     alias: 'Armored Titan',
     age: 17,
@@ -107,6 +115,7 @@ const characters = [
     image_url: 'https://i.imgur.com/J8en6Ue.jpg',
   },
   {
+    id: 9,
     name: 'Bertholdt Hoover',
     alias: 'Colossal Titan',
     age: 17,
@@ -118,6 +127,7 @@ const characters = [
     image_url: 'https://i.imgur.com/n1F5tDp.jpg',
   },
   {
+    id: 10,
     name: 'Annie Leonhart',
     alias: 'Female Titan',
     age: 16,
@@ -129,6 +139,7 @@ const characters = [
     image_url: 'https://i.imgur.com/J4p4x5m.jpg',
   },
   {
+    id: 11,
     name: 'Ymir',
     alias: 'Dancing Titan',
     age: 70,
@@ -140,6 +151,7 @@ const characters = [
     image_url: 'https://i.imgur.com/XqHtllI.jpg',
   },
   {
+    id: 12,
     name: 'Zeke Yeager',
     alias: 'Beast Titan',
     age: 0,
@@ -151,6 +163,7 @@ const characters = [
     image_url: 'https://i.imgur.com/qKyzJiz.jpg',
   },
   {
+    id: 13,
     name: 'Pieck Finger',
     alias: 'Cart Titan',
     age: 0,
@@ -162,6 +175,7 @@ const characters = [
     image_url: 'https://i.imgur.com/xKjwNMT.jpg',
   },
   {
+    id: 14,
     name: 'Gabi Braun',
     alias: 'The Devil of Paradis',
     age: 12,
@@ -173,6 +187,7 @@ const characters = [
     image_url: 'https://i.imgur.com/ql5fP6B.jpg',
   },
   {
+    id: 15,
     name: 'Falco Grice',
     alias: 'The Wounded Bird',
     age: 17,
@@ -184,6 +199,7 @@ const characters = [
     image_url: 'https://i.imgur.com/xXit3qC.jpg',
   },
   {
+    id: 16,
     name: 'Willy Tybur',
     alias: 'Tybur Family Head',
     age: 0,
@@ -193,6 +209,55 @@ const characters = [
     description:
       'Willy is the head of the influential Tybur family and plays a pivotal role in the events leading up to the battle of Paradis.',
     image_url: 'https://i.imgur.com/r3gnxJf.jpg',
+  },
+  {
+    id: 17,
+    name: 'Ymir',
+    alias: 'Ymir Fritz',
+    age: 2000,
+    gender: 'Female',
+    height: '155 cm',
+    weight: '45 kg',
+    description:
+      'Ymir is a mysterious figure from ancient history who is said to have possessed the power of the Titans and founded the nation of Eldia.',
+    image_url: 'https://i.imgur.com/k7tChPp.jpg',
+  },
+  {
+    id: 18,
+
+    name: 'Erwin Smith',
+    alias: 'None',
+    age: 35,
+    gender: 'Male',
+    height: '188 cm',
+    weight: '85 kg',
+    description:
+      'Erwin is a highly intelligent and charismatic soldier who serves as the commander of the Survey Corps and is driven by a burning desire to uncover the secrets of the Titans.',
+    image_url: 'https://i.imgur.com/2Q3q3dc.jpg',
+  },
+  {
+    id: 19,
+    name: 'Hange Zoë',
+    alias: 'None',
+    age: 0,
+    gender: 'Female',
+    height: '170 cm',
+    weight: '65 kg',
+    description:
+      'Hange is a brilliant scientist and soldier who is fascinated by the Titans and is determined to learn as much as possible about them.',
+    image_url: 'https://i.imgur.com/00S7a8Z.jpg',
+  },
+  {
+    id: 20,
+    name: 'Marco Bodt',
+    alias: 'None',
+    age: 0,
+    gender: 'Male',
+    height: '175 cm',
+    weight: '67 kg',
+    description:
+      'Marco was a talented soldier who was known for his sharp intellect and strong leadership skills, but was tragically killed during the Battle of Trost.',
+    image_url: 'https://i.imgur.com/LdrbO2M.jpg',
   },
 ];
 
