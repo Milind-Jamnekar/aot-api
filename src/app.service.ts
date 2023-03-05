@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import { characters } from './characters/data/characters';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getAllCharacters() {
+    return characters;
   }
 }
